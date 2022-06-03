@@ -1850,4 +1850,3 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 echo "şifre girme"
 
-DISPLAY= /opt/google/chrome-remote-desktop/start-host --code="4/0AX4XfWjJOQ1b-fJCmpE4p8x9krqxW4XO1efTOLvXh3OjpgQo94SaZxpGqSnUShz_EsALGA" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$(hostname)
