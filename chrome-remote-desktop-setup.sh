@@ -1845,5 +1845,7 @@ if __name__ == "__main__":
   sys.exit(main())
 EOF
 
+wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
 
 echo "Initial Installation Done - Please Reboot and continue following the instructios on https://kmyers.me/blog/linux/chrome-remote-desktop-on-ubuntu-20-04-setup-guide-setup-script"
